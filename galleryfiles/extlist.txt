@@ -1,6 +1,1 @@
-format = extension name|description and credits|link to the exts raw github file|
-example = Trashword|Censor out, count, and detect bad words. Made by LittleBlueGamer|placeholder|
-the extensions icon and code must be the exact same as the first part of it's griffpatch-save-code-idk-what-to-call-it in this text file.
--=the griffsavecodeidkwhattocallit things go under this line=-
-Trashword|Censor out, count, and detect bad words. Made by LittleBlueGamer|placeholder|
-Pixel Utilities|Some Utility Blocks that Roltycore 2's Developer made for some reason. Made by LittleBlueGamer|placeholder|
+format = extension name|description and credits|link to the exts raw github file|,example = Trashword|Censor out, count, and detect bad words. Made by LittleBlueGamer|placeholder|,the extensions icon and code must be the exact same as the first part of it's griffpatch-save-code-idk-what-to-call-it in this text file,the griffsavecodeidkwhattocallit things go next,Trashword|Censor out, count, and detect bad words. Made by LittleBlueGamer|placeholder|,Pixel Utilities|Some Utility Blocks that Roltycore 2's Developer made for some reason. Made by LittleBlueGamer|placeholder|
