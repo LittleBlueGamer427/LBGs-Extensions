@@ -1,0 +1,17 @@
+# notes
+-format doesnt matter, as long as it actually works in turbowarp
+-in filenames and ext name in extlist.txt, USE SPACE NOT DASH
+
+# step by step guide
+1 make an extension
+2 make an icon for the extension that will show up in the console-like menu when your ext is added. (DONT MAKE THE ICON BIGGER THAN 360x360, IT ALSO NEEDS TO BE AN SVG)
+3 fork dis repo
+4 make sure your ext file and its icon have the exact same file name, if they arent the same filename, rename them
+5 upload the js file for your ext into the **extcode** folder, which can be found in the **galleryfiles** folder.
+6 upload the svg file for your exts icon into the **exticon** folder, which can also be found in the **galleryfiles** folder
+7 inside **galleryfiles** find **extlist.txt**, you are dealing with a json array here
+8 edit **extlist.txt**, you need to know how to properly edit json arrays to do this
+9 add extension info in the format shown below as a new item in the json array, KEEP THE | OR THE GALLERY WONT BE ABLE TO READ IT
+**extension name|description and credits|raw github file link|**
+(if you cant link to the raw file, lbg will need to do it for you)
+10 pull request and done
