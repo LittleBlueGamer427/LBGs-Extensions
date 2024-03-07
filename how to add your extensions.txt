@@ -4,7 +4,7 @@ notes
 
 step by step guide
 1 make an extension
-2 make an icon for the extension that will show up in the console-like menu when your ext is added. (DONT MAKE THE ICON BIGGER THAN 360x360, IT ALSO NEEDS TO BE AN SVG)
+2 make an icon for the extension that will show up in the console-like menu when your ext is added. (DONT MAKE THE ICON BIGGER THAN 360x360 IT ALSO NEEDS TO BE AN SVG)
 3 fork dis repo
 4 make sure your ext file and its icon have the exact same file name, if they arent the same filename, rename them
 5 upload the js file for your ext into the **extcode** folder, which can be found in the **galleryfiles** folder.
