@@ -1,8 +1,8 @@
-# notes
+notes
 -format doesnt matter, as long as it actually works in turbowarp
 -in filenames and ext name in extlist.txt, USE SPACE NOT DASH
 
-# step by step guide
+step by step guide
 1 make an extension
 2 make an icon for the extension that will show up in the console-like menu when your ext is added. (DONT MAKE THE ICON BIGGER THAN 360x360, IT ALSO NEEDS TO BE AN SVG)
 3 fork dis repo
