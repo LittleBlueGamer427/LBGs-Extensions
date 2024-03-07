@@ -1,1 +1,1 @@
-{"Trashword|Censor out, count, and detect bad words. Made by LittleBlueGamer|placeholder|","Pixel Utilities|Some Utility Blocks that Roltycore 2's Developer made for some reason. Made by LittleBlueGamer|placeholder|"}
+["Trashword|Censor out, count, and detect bad words. Made by LittleBlueGamer|placeholder|","Pixel Utilities|Some Utility Blocks that Roltycore 2's Developer made for some reason. Made by LittleBlueGamer|placeholder|"]
