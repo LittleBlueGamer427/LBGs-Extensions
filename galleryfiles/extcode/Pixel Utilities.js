@@ -18,17 +18,6 @@
                 color3: "#004d94",
                 blocks: [
                     {
-                        blockType: Scratch.BlockType.HAT,
-                        opcode: 'whenConditionGoesYes',
-                        text: 'when [CONDITION1] goes Y E S',
-                        isEdgeActivated: true,
-                        arguments: {
-                            CONDITION1: {
-                                type: Scratch.BlockType.BOOLEAN
-                            },
-                        }
-                    },
-                    {
                         blockType: Scratch.BlockType.BOOLEAN,
                         opcode: 'trueOrFalseBoolean',
                         text: '[trueorfalse]',
