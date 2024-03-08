@@ -27,6 +27,11 @@ class GarbageUtilities {
                     }
                 },
                 {
+                    blockType: Scratch.BlockType.BOOLEAN,
+                    opcode: "isGamePackaged",
+                    text: 'is this game packaged',
+                },
+                {
                     opcode: 'percentChance',
                     blockType: Scratch.BlockType.BOOLEAN,
                     text: '[percent] chance of returning true',
@@ -93,6 +98,9 @@ class GarbageUtilities {
     }
     trueOrFalseBoolean(args) {
         return args.trueorfalse
+    }
+    isGamePackaged() {
+        return Scratch.vm.runtime.isPackaged
     }
     percentChance(args) {
         return Math.random() < args.percent / 100;
