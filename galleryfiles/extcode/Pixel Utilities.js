@@ -27,11 +27,6 @@ class GarbageUtilities {
                     }
                 },
                 {
-                    blockType: Scratch.BlockType.BOOLEAN,
-                    opcode: "isGamePackaged",
-                    text: 'is this game packaged',
-                },
-                {
                     opcode: 'percentChance',
                     blockType: Scratch.BlockType.BOOLEAN,
                     text: '[percent] chance of returning true',
