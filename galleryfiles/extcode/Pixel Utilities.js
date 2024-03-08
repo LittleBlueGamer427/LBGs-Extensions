@@ -18,6 +18,17 @@
                 color3: "#004d94",
                 blocks: [
                     {
+                        blockType: Scratch.BlockType.HAT,
+                        opcode: 'whenConditionGoesYes',
+                        text: 'when [CONDITION1] goes Y E S',
+                        isEdgeActivated: true,
+                        arguments: {
+                            CONDITION1: {
+                                type: Scratch.BlockType.BOOLEAN
+                            },
+                        }
+                    },
+                    {
                         blockType: Scratch.BlockType.BOOLEAN,
                         opcode: 'trueOrFalseBoolean',
                         text: '[trueorfalse]',
@@ -28,11 +39,6 @@
                                 menu: 'trueorfalsemenu'
                             }
                         }
-                    },
-                    {
-                        blockType: Scratch.BlockType.BOOLEAN,
-                        opcode: "isGamePackaged",
-                        text: 'is this game packaged',
                     },
                     {
                         opcode: 'percentChance',
@@ -104,9 +110,6 @@
         }
         trueOrFalseBoolean(args) {
             return args.trueorfalse
-        }
-        isGamePackaged() {
-            return Scratch.vm.runtime.isPackaged
         }
         percentChance(args) {
             return Math.random() < args.percent / 100;
