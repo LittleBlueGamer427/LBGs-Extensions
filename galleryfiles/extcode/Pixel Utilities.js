@@ -94,9 +94,6 @@ class GarbageUtilities {
     trueOrFalseBoolean(args) {
         return args.trueorfalse
     }
-    isGamePackaged() {
-        return Scratch.vm.runtime.isPackaged
-    }
     percentChance(args) {
         return Math.random() < args.percent / 100;
     }
