@@ -3,7 +3,7 @@ notes
 -in filenames and ext name in extlist.txt, USE SPACE NOT DASH
 
 step by step guide
-1 make an extension
+1 make an extension (unless you already have one ready to be put on here)
 2 make an icon for the extension that will show up in the console-like menu when your ext is added. (DONT MAKE THE ICON BIGGER THAN 360x360 IT ALSO NEEDS TO BE AN SVG)
 3 fork dis repo
 4 make sure your ext file and its icon have the exact same file name, if they arent the same filename, rename them
@@ -14,4 +14,4 @@ step by step guide
 9 add extension info in the format shown below as a new item in the json array, KEEP THE | OR THE GALLERY WONT BE ABLE TO READ IT
 **extension name|description and credits|raw github file link|**
 (if you cant link to the raw file, lbg will need to do it for you)
-10 pull request and done
+10 pull request and you done
