@@ -59,7 +59,7 @@ class TrashWord {
 
     replaceBadWords(args) {
         const text = args.TEXT;
-        const badWords = ['fuck', 'shit', 'ass', 'bitch', 'nigger', 'kys', 'retard', 'piss', 'sex', 'dick', 'balllicker', 'ballsack', 'biatch', 'boob', 'bra', 'cock', 'nigga', 'cum', 'fuk', 'mothafuck', 'niggar', 'kill yourself', 'delete yourself', 'dong', 'faggot', 'bong', 'penis'];
+        const badWords = ['kkk', 'fuck', 'shit', 'ass', 'bitch', 'nigger', 'nigga', 'kys', 'retard', 'piss', 'sex', 'dick', 'balllicker', 'ballsack', 'biatch', 'boob', 'bra', 'cock', 'nigga', 'cum', 'fuk', 'mothafuck', 'niggar', 'kill yourself', 'delete yourself', 'dong', 'faggot', 'bong', 'penis'];
         const replacement = args.REPLACEMENT;
 
         let filteredText = text;
@@ -76,14 +76,14 @@ class TrashWord {
 
     containsBadWord(args) {
         const text = args.TEXT.toLowerCase();
-        const badWords = ['fuck', 'shit', 'ass', 'bitch', 'nigger', 'kys', 'retard', 'piss', 'sex', 'dick', 'balllicker', 'ballsack', 'biatch', 'boob', 'bra', 'cock', 'nigga', 'cum', 'fuk', 'mothafuck', 'niggar', 'kill yourself', 'delete yourself', 'dong', 'faggot', 'bong', 'penis'];
+        const badWords = ['kkk', 'fuck', 'shit', 'ass', 'bitch', 'nigger', 'nigga', 'kys', 'retard', 'piss', 'sex', 'dick', 'balllicker', 'ballsack', 'biatch', 'boob', 'bra', 'cock', 'nigga', 'cum', 'fuk', 'mothafuck', 'niggar', 'kill yourself', 'delete yourself', 'dong', 'faggot', 'bong', 'penis'];
 
         return badWords.some((badWord) => text.includes(badWord));
     }
 
     countBadWords(args) {
         const text = args.TEXT.toLowerCase();
-        const badWords = ['fuck', 'shit', 'ass', 'bitch', 'nigger', 'kys', 'retard', 'piss', 'sex', 'dick', 'balllicker', 'ballsack', 'biatch', 'boob', 'bra', 'cock', 'nigga', 'cum', 'fuk', 'mothafuck', 'niggar', 'kill yourself', 'delete yourself', 'dong', 'faggot', 'bong', 'penis'];
+        const badWords = ['kkk', 'fuck', 'shit', 'ass', 'bitch', 'nigger', 'nigga', 'kys', 'retard', 'piss', 'sex', 'dick', 'balllicker', 'ballsack', 'biatch', 'boob', 'bra', 'cock', 'nigga', 'cum', 'fuk', 'mothafuck', 'niggar', 'kill yourself', 'delete yourself', 'dong', 'faggot', 'bong', 'penis'];
 
         let count = 0;
         badWords.forEach((badWord) => {
