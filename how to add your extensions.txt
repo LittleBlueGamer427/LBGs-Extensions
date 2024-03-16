@@ -1,6 +1,7 @@
 notes
 -format doesnt matter, as long as it actually works in turbowarp
 -in filenames and ext name in extlist.txt, USE SPACE NOT DASH
+-its fine if the extension is on another gallery as well
 
 step by step guide
 1 make an extension (unless you already have one ready to be put on here)
