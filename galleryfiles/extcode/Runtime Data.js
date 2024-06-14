@@ -9,6 +9,9 @@ let frameICON = "data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJod
 let storageICON = "data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIyNi42NDIwNCIgaGVpZ2h0PSIzMS42NTM0NiIgdmlld0JveD0iMCwwLDI2LjY0MjA0LDMxLjY1MzQ2Ij48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjI2LjY3ODk4LC0xNjEuNzQyMzYpIj48ZyBkYXRhLXBhcGVyLWRhdGE9InsmcXVvdDtpc1BhaW50aW5nTGF5ZXImcXVvdDs6dHJ1ZX0iIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjQuNSIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWRhc2hhcnJheT0iIiBzdHJva2UtZGFzaG9mZnNldD0iMCIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0yMjguOTI4OTgsMTgwYzAsLTYuMTU1NjcgMTEuMDcxMDIsLTE1LjMzNDg1IDExLjA3MTAyLC0xNS4zMzQ4NWMwLDAgMTEuMDcxMDIsOS4xNzkxOCAxMS4wNzEwMiwxNS4zMzQ4NWMwLDYuMTU1NjcgLTQuOTU2NjYsMTEuMTQ1ODIgLTExLjA3MTAyLDExLjE0NTgyYy02LjExNDM1LDAgLTExLjA3MTAyLC00Ljk5MDE1IC0xMS4wNzEwMiwtMTEuMTQ1ODJ6Ii8+PC9nPjwvZz48L3N2Zz48IS0tcm90YXRpb25DZW50ZXI6MTMuMzIxMDIwMDAwMDAwMDA0OjE4LjI1NzYzNTM2MjQ5NzgzNy0tPg==";
 let platICON = "data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSI0OS41MzIxMiIgaGVpZ2h0PSI1MS45NzY4NiIgdmlld0JveD0iMCwwLDQ5LjUzMjEyLDUxLjk3Njg2Ij48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjE1LjIzMzk0LC0xNDguNDAxMzEpIj48ZyBkYXRhLXBhcGVyLWRhdGE9InsmcXVvdDtpc1BhaW50aW5nTGF5ZXImcXVvdDs6dHJ1ZX0iIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjQuNSIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWRhc2hhcnJheT0iIiBzdHJva2UtZGFzaG9mZnNldD0iMCIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0yMjEuOTEwMDcsMTU4LjM4MTU5bDE4LjA4OTkzLC03LjU0MjU1bDE4LjA4OTkzLDcuNTQyNTVsLTE4LjA4OTkzLDcuNTQyNTR6Ii8+PHBhdGggZD0iTTIxNy40ODM5NCwxODguNjEwOTV2LTI1LjU4MzAzbDE5LjU5ODcsOC4zNjExM3YyNS41ODMwM3oiLz48cGF0aCBkPSJNMjQyLjkxNzM2LDE5Ni45NzIwOHYtMjUuNTgzMDNsMTkuNTk4NywtOC4zNjExM3YyNS41ODMwM3oiIGRhdGEtcGFwZXItZGF0YT0ieyZxdW90O2luZGV4JnF1b3Q7Om51bGx9Ii8+PC9nPjwvZz48L3N2Zz48IS0tcm90YXRpb25DZW50ZXI6MjQuNzY2MDU4NjU5MTg4MzAzOjMxLjU5ODY5NDA2NzUyNTk5Ny0tPg==";
 let userICON = "data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIzMy42NzM2MyIgaGVpZ2h0PSI0Ni41NTU3NyIgdmlld0JveD0iMCwwLDMzLjY3MzYzLDQ2LjU1NTc3Ij48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjIzLjE2MzE4LC0xNTYuNzIyMTEpIj48ZyBkYXRhLXBhcGVyLWRhdGE9InsmcXVvdDtpc1BhaW50aW5nTGF5ZXImcXVvdDs6dHJ1ZX0iIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjQuNSIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWRhc2hhcnJheT0iIiBzdHJva2UtZGFzaG9mZnNldD0iMCIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0yMjUuNDEzMTgsMjAxLjAyNzg5di0xMC43MDU1YzAsMCA5LjQ1NTE5LC00LjYyNDc4IDE0LjI2MjE1LC00LjYyNDc4YzQuOTE1MTcsMCAxNC45MTE0OCw0LjYyNDc4IDE0LjkxMTQ4LDQuNjI0Nzh2MTAuNzA1NXoiLz48cGF0aCBkPSJNMjMwLjI3NTQ2LDE2OC42OTY2NmMwLC01LjM3MDcyIDQuMzUzODMsLTkuNzI0NTQgOS43MjQ1NCwtOS43MjQ1NGM1LjM3MDcyLDAgOS43MjQ1NCw0LjM1MzgzIDkuNzI0NTQsOS43MjQ1NGMwLDUuMzcwNzIgLTQuMzUzODMsOS43MjQ1NCAtOS43MjQ1NCw5LjcyNDU0Yy01LjM3MDcyLDAgLTkuNzI0NTQsLTQuMzUzODMgLTkuNzI0NTQsLTkuNzI0NTR6Ii8+PC9nPjwvZz48L3N2Zz48IS0tcm90YXRpb25DZW50ZXI6MTYuODM2ODE1NDg4NzgyNTI6MjMuMjc3ODg2NjQxNTM2MzU1LS0+";
+let ttICON = "data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSI0Ni42NTczIiBoZWlnaHQ9IjQ2LjY1NzMiIHZpZXdCb3g9IjAsMCw0Ni42NTczLDQ2LjY1NzMiPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yMTYuNjcxMzUsLTE1Ni42NzEzNSkiPjxnIGRhdGEtcGFwZXItZGF0YT0ieyZxdW90O2lzUGFpbnRpbmdMYXllciZxdW90Ozp0cnVlfSIgZmlsbC1ydWxlPSJub256ZXJvIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6IG5vcm1hbCI+PHBhdGggZD0iTTIyNC4zMjYyMiwxODBjMCwtOC42NTYzOSA3LjAxNzM4LC0xNS42NzM3OCAxNS42NzM3OCwtMTUuNjczNzhjOC42NTYzOSwwIDE1LjY3Mzc4LDcuMDE3MzggMTUuNjczNzgsMTUuNjczNzhjMCw4LjY1NjM5IC03LjAxNzM4LDE1LjY3Mzc4IC0xNS42NzM3OCwxNS42NzM3OGMtOC42NTYzOSwwIC0xNS42NzM3OCwtNy4wMTczOCAtMTUuNjczNzgsLTE1LjY3Mzc4eiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjEwIi8+PHBhdGggZD0iTTIzMy40NTI2LDIwMy4zMjg2NXYtNi4yNjI3M2gxMy4wOTQ3OXY2LjI2MjczeiIgZmlsbD0iI2ZmZmZmZiIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjAiLz48cGF0aCBkPSJNMjE4Ljg3NDQ1LDE5MS44NjYxNGw0LjQyODQyLC00LjQyODQybDkuMjU5NDEsOS4yNTk0MWwtNC40Mjg0Miw0LjQyODQyeiIgZmlsbD0iI2ZmZmZmZiIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjAiLz48cGF0aCBkPSJNMjE2LjY3MTM1LDE3My40NTI2aDYuMjYyNzN2MTMuMDk0NzloLTYuMjYyNzN6IiBmaWxsPSIjZmZmZmZmIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMCIvPjxwYXRoIGQ9Ik0yMjguMTMzODYsMTU4Ljg3NDQ1bDQuNDI4NDIsNC40Mjg0MmwtOS4yNTk0MSw5LjI1OTQxbC00LjQyODQyLC00LjQyODQyeiIgZmlsbD0iI2ZmZmZmZiIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjAiLz48cGF0aCBkPSJNMjMzLjQ1MjYsMTYyLjkzNDA4di02LjI2MjczaDEzLjA5NDc5djYuMjYyNzN6IiBmaWxsPSIjZmZmZmZmIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMCIvPjxwYXRoIGQ9Ik0yNDcuNDM3NzIsMTYzLjMwMjg3bDQuNDI4NDIsLTQuNDI4NDJsOS4yNTk0MSw5LjI1OTQxbC00LjQyODQyLDQuNDI4NDJ6IiBmaWxsPSIjZmZmZmZmIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMCIvPjxwYXRoIGQ9Ik0yNTcuMDY1OTIsMTczLjQ1MjZoNi4yNjI3M3YxMy4wOTQ3OWgtNi4yNjI3M3oiIGZpbGw9IiNmZmZmZmYiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIwIi8+PHBhdGggZD0iTTI1Ni42OTcxMywxODcuNDM3NzJsNC40Mjg0Miw0LjQyODQybC05LjI1OTQxLDkuMjU5NDFsLTQuNDI4NDIsLTQuNDI4NDJ6IiBmaWxsPSIjZmZmZmZmIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMCIvPjwvZz48L2c+PC9zdmc+PCEtLXJvdGF0aW9uQ2VudGVyOjIzLjMyODY1MTkwMDE2OTU0NzoyMy4zMjg2NTE5MDAxNjk1NzUtLT4=";
+let rICON = "data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSI0NS43OTAzMiIgaGVpZ2h0PSIzNi41IiB2aWV3Qm94PSIwLDAsNDUuNzkwMzIsMzYuNSI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTIxNy4xMDQ4NCwtMTYxLjc1KSI+PGcgZGF0YS1wYXBlci1kYXRhPSJ7JnF1b3Q7aXNQYWludGluZ0xheWVyJnF1b3Q7OnRydWV9IiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSI0LjUiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMjE5LjM1NDg0LDE5NnYtMjQuNjAyMTVoNDEuMjkwMzJ2MjQuNjAyMTV6Ii8+PHBhdGggZD0iTTIyMS40NjIzNywxNzEuMzk3ODV2LTcuMzk3ODVoMTguNTgwNjV2Ny4zOTc4NXoiLz48cGF0aCBkPSJNMjMzLjc1MjY5LDE4My42OTg5M2MwLC0zLjQwNTc1IDIuNzYwOTEsLTYuMTY2NjYgNi4xNjY2NiwtNi4xNjY2NmMzLjQwNTc1LDAgNi4xNjY2NiwyLjc2MDkxIDYuMTY2NjYsNi4xNjY2NmMwLDMuNDA1NzUgLTIuNzYwOTEsNi4xNjY2NiAtNi4xNjY2Niw2LjE2NjY2Yy0zLjQwNTc1LDAgLTYuMTY2NjYsLTIuNzYwOTEgLTYuMTY2NjYsLTYuMTY2NjZ6Ii8+PC9nPjwvZz48L3N2Zz48IS0tcm90YXRpb25DZW50ZXI6MjIuODk1MTYwMDAwMDAwMDA0OjE4LjI1LS0+";
+let eICON = "data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIyNi42OTIyMyIgaGVpZ2h0PSI0NS4xOTE4OCIgdmlld0JveD0iMCwwLDI2LjY5MjIzLDQ1LjE5MTg4Ij48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjI2LjY1Mzg5LC0xNTcuNDAxODQpIj48ZyBkYXRhLXBhcGVyLWRhdGE9InsmcXVvdDtpc1BhaW50aW5nTGF5ZXImcXVvdDs6dHJ1ZX0iIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjQuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMjMwLjY4NzM3LDE1OS42NTE4NGMwLDAgLTcuNjExMzYsNDAuMjAwMjEgOC42MTM2MSw0MC42OTE4OGMxNi4yMjQ5NywwLjQ5MTY3IDEwLjk4OTc4LC00MC4wOTc4NCAxMC45ODk3OCwtNDAuMDk3ODQiLz48L2c+PC9nPjwvc3ZnPjwhLS1yb3RhdGlvbkNlbnRlcjoxMy4zNDYxMTQ0MjkyNTU4MDY6MjIuNTk4MTU3MzEwNTgyNDgtLT4=";
 
 class RunDataTime {
     getInfo() {
@@ -144,6 +147,54 @@ class RunDataTime {
             blockType: Scratch.BlockType.REPORTER,
             text: 'username',
             blockIconURI: userICON
+          },
+          {
+            blockType: Scratch.BlockType.LABEL,
+            text: 'Target Type'
+          },
+          {
+            opcode: 'sprite',
+            blockType: Scratch.BlockType.REPORTER,
+            text: 'sprite',
+            blockIconURI: ttICON
+          },
+          {
+            opcode: 'stage',
+            blockType: Scratch.BlockType.REPORTER,
+            text: 'stage',
+            blockIconURI: ttICON
+          },
+          {
+            blockType: Scratch.BlockType.LABEL,
+            text: 'Extensions'
+          },
+          {
+            opcode: 'sand',
+            blockType: Scratch.BlockType.BOOLEAN,
+            text: 'unsandboxed',
+            blockIconURI: eICON
+          },
+          {
+            blockType: Scratch.BlockType.LABEL,
+            text: 'Renderer'
+          },
+          {
+            opcode: 'privskin',
+            blockType: Scratch.BlockType.BOOLEAN,
+            text: 'private skin access allowed?',
+            blockIconURI: rICON
+          },
+          {
+            opcode: 'hq',
+            blockType: Scratch.BlockType.BOOLEAN,
+            text: 'high quality render allowed?',
+            blockIconURI: rICON
+          },
+          {
+            opcode: 'ost',
+            blockType: Scratch.BlockType.BOOLEAN,
+            text: 'offscreen touching allowed?',
+            blockIconURI: rICON
           }
         ]
       };
@@ -199,6 +250,24 @@ class RunDataTime {
     }
     debug() {
       return Scratch.vm.runtime.debug;
+    }
+    sprite() {
+      return Scratch.TargetType.SPRITE;
+    }
+    stage() {
+      return Scratch.TargetType.STAGE;
+    }
+    sand() {
+      return Scratch.extensions.unsandboxed;
+    }
+    privskin() {
+      return Scratch.renderer.allowPrivateSkinAccess;
+    }
+    hq() {
+      return Scratch.renderer.useHighQualityRender;
+    }
+    ost() {
+      return Scratch.renderer.offscreenTouching;
     }
    }
   
