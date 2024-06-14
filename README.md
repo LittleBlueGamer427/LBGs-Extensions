@@ -1,2 +1,2 @@
-a gallery for my stuff
-# do not change this in your fork
+a gallery
+# do not change this read me thing in your fork
