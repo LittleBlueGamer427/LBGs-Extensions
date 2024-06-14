@@ -1,8 +1,7 @@
 notes
 -format doesnt matter, as long as it actually works in turbowarp
--in filenames and ext name in extlist.txt, USE SPACE NOT DASH
+-in filenames and ext name in extlist.txt, USE SPACE NOT DASH. they also need to be the exact same name as the extension
 -its fine if the extension is on another gallery as well
--your exts icon must be simple dont make it too complex
 
 step by step guide
 1 make an extension (unless you already have one ready to be put on here)
@@ -12,7 +11,7 @@ step by step guide
 5 upload the js file for your ext into the **extcode** folder, which can be found in the **galleryfiles** folder.
 6 upload the svg file for your exts icon into the **exticon** folder, which can also be found in the **galleryfiles** folder
 7 inside **galleryfiles** find **extlist.txt**, you are dealing with a json array here
-8 edit **extlist.txt**, you need to know how to properly edit json arrays to do this
+8 edit **extlist.txt**, you need to know how to properly edit json arrays to do this (ALTERNATE METHOD, USE https://gamejolt.com/games/lbgextlisthelper/903766 ITS EASIER. IF YOU USE THE TOOL SKIP STEP 9, IT DOES IT AUTOMATICALLY)
 9 add extension info in the format shown below as a new item in the json array, KEEP THE | OR THE GALLERY WONT BE ABLE TO READ IT
 **extension name|description and credits|raw github file link|**
 (if you cant link to the raw file, lbg will need to do it for you)
