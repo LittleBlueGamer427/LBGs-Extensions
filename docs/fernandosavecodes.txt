@@ -1,0 +1,17 @@
+[reset save code]
+self explanatory. use this first when writing a new one
+
+[set SaveCode to (chicken|butt|)]
+sets the save code to that. can be used with prepare to read and read value blocks
+
+[write value (chicken)]
+writes a new thing into the save code
+
+(Get SaveCode)
+just returns the current save code.
+
+[prepare to read]
+use this when you begin reading it.
+
+(read value)
+you go to the next value everytime you click this, but it starts on the first one. this is related to reading a save code btw
