@@ -72,7 +72,7 @@
     });
 
     Extension.prototype["write"] = (args, util) => {
-        let text = args["text"];
+        let text = Scratch.Cast.toString(args.text);
         text = text.replace(/([|\\])/g, "\\$1"); // Escape | and \ characters
         if (!variables["savecode"]) {
             variables["savecode"] = "";
