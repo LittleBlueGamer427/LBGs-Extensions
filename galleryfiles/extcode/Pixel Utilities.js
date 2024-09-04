@@ -3,7 +3,7 @@
 // Description: Random Utility Blocks by LittleBlueGamer
 // By: LittleBlueGamer
 
-// Version V.1.2.0
+// Version V.1.3.0
 
 (function (Scratch) {
     "use strict";
@@ -130,6 +130,16 @@
                                 menu: "multdivmenu"
                             }
                         }
+                    },
+                    {
+                        blockType: Scratch.BlockType.REPORTER,
+                        opcode: "sign",
+                        text: "sign [number]",
+                        arguments: {
+                            number: {
+                                type: Scratch.ArgumentType.NUMBER
+                            }
+                        }
                     }
                 ],
                 menus: {
@@ -160,43 +170,55 @@
             return Scratch.vm.runtime.isPackaged;
         }
 
-        percentChance(args) {
+        percentChance(args, util) {
             return Math.random() < args.percent / 100;
         }
 
-        percentOfNumber(args) {
-            return (args.percent / 100) * args.number;
+        percentOfNumber(args, util) {
+            percent = Scratch.Cast.toNumber(args.percent)
+            number = Scratch.Cast.toNumber(args.number)
+            return (percent / 100) * number;
         }
 
-        reverseString(args) {
-            return args.text.split("").reverse().join("");
+        reverseString(args, util) {
+            text = Scratch.Cast.toString(args.text)
+            return text.split("").reverse().join("");
         }
 
-        getPercentageOfSteps(args) {
-            const origin = args.stepOrigin;
-            const percentage = args.percentageInput / 100;
-            const distance = args.stepLocation - origin;
+        getPercentageOfSteps(args,) {
+            const origin = Scratch.Cast.toNumber(args.stepOrigin);
+            const percentage = Scratch.Cast.toNumber(args.percentageInput) / 100;
+            const distance = Scratch.Cast.toNumber(args.stepLocation) - origin;
             return distance * percentage;
         }
 
-        framesToSecondsOrViceVersa(args) {
+        framesToSecondsOrViceVersa(args,) {
             if (args.framestosecsmenu === 'frames to seconds') {
-                return args.framesorseconds / Scratch.vm.runtime.frameLoop.framerate;
+                return Scratch.Cast.toNumber(args.framesorseconds) / Scratch.vm.runtime.frameLoop.framerate;
             } else {
-                return args.framesorseconds * Scratch.vm.runtime.frameLoop.framerate;
+                return Scratch.Cast.toNumber(args.framesorseconds) * Scratch.vm.runtime.frameLoop.framerate;
             }
         }
 
-        makeCompatWithHigherFramerate(args) {
-            const oglimit = args.ogfps;
+        makeCompatWithHigherFramerate(args, util) {
+            const oglimit = Scratch.Cast.toNumber(args.ogfps);
             const currentlimit = Scratch.vm.runtime.frameLoop.framerate;
             const oglimitdivision = currentlimit / oglimit;
-            const value = args.value;
+            const value = Scratch.Cast.toNumber(args.value);
             if (args.multdiv === "multiplication") {
                 return value * oglimitdivision;
             } else {
                 return value / oglimitdivision;
             }
+        }
+
+        sign(args, util) {
+            const number = Scratch.Cast.toNumber(args.number);
+            let result = number / Math.abs(number);
+            if (isNaN(result)) {
+                result = 0;
+            }
+            return result;
         }
     }
 
